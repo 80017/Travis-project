@@ -8,8 +8,6 @@ app.get('/',function(req,res){
     res.send("Hello");
 });
 
-
-// Starting server
 var server = http.createServer(app).listen(port, function() {
 console.log("Listening on " + port);
 });
